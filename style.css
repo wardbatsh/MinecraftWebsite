@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: rgb(0, 0, 0);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-image: url(Picture1.png);
+ 
+    background-position:100px;
+    height: 100px;
+   
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-right: 2cm;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+nav a:hover{
+    color:rgb(142, 253, 216)
+}
+.Welcome h2{
+    font-size:40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+color: rgb(183, 189, 189);
+-webkit-text-stroke: 2px black;
+   text-shadow:
+       2px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+.Welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:start;
+    font-size: 30px;
+    background-image: url(welcome.png);
+    background-size: cover;
+    height: 600px;
+    text-align: start;
+}
+.Welcome button{
+    padding: 20px 50px;
+    background-color: rgb(20, 133, 95);
+    border: 0cm;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+
+}
+.Welcome button:hover{
+   background-color: rgb(17, 59, 46);
+}
+.About{background-color: #000;
+ font-size: 20px;
+    text-align: center;
+margin-bottom: 40px ;
+color: aliceblue;
+}
+.games h2{
+
+text-align: center;
+color: antiquewhite;
+}
+.games{
+    font-size: 20px;
+    background-color: #000;
+    text-align: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+.imagescontainer{
+
+display: grid;
+grid-template-columns: repeat(5,1fr);
+overflow-x: auto;
+ grid-gap:10px;
+ scroll-margin-inline: 0;
+}
+.imagescontainer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.imagescontainer a:hover{
+    color:rgb(142, 253, 216)
+}
+.socials{margin-top: 70px;
+     font-size: 20px;
+
+    background-color: #000;
+    text-align: center;
+    align-items: center;
+    padding: 50px 20 px;
+    color: aliceblue;
+    justify-content: center;
+   
+}
+.socials h3{
+    margin-left:30px ;
+    margin-bottom: 40px;
+    align-items:baseline
+}
+.fa {
+    padding:15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #e01786;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+.Comment p{
+    margin-bottom: 20px;
+}
+  body, button, input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+  
+  .background {
+    display: flex;
+    min-height: 100vh;
+  }
+  .container {
+   
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+
+  .screen {
+    position: relative;
+    background: #3e3e3e;
+    border-radius: 15px;
+  }
+  
+  .screen-body-item {
+    flex: 1;
+    padding: 20px 20px;
+  }
+  
+ 
+  
+  .app-contact {
+    margin-top: auto;
+    font-size: 8px;
+    color: #888;
+  }
+  
+  
+  
+ 
+  
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+  
+  .app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+  }
+  
+  .app-form-control::placeholder {
+    color: #666;
+  }
+  
+  .app-form-control:focus {
+    border-bottom-color: #ddd;
+  }
+  
+  .app-form-button {
+    background: none;
+    border: none;
+    color: #929292;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .app-form-button:hover {
+    color: #0d8d29;
+  }
+  
+    .app-title {
+      flex-direction: row;
+    }
+  
+    .app-title span {
+      margin-right: 12px;
+    }
+  
+    .app-title:after {
+      display: none;
+    }
+  
+  
+footer{
+    color: aliceblue;
+    padding: 20px 20px ;
+    text-align: center;
+}
